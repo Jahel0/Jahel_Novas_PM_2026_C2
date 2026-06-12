@@ -4,22 +4,23 @@ int main()
 {
     int opcion = 0;
     int cantidadJugadas = 0;
-    int numeroGanador = 0;
+    int numeroGanador = 1;
     int huboGanador = 0;
 
     int numerosJugados[100];
     float dineroApostado[100];
 
-    printf("=== CONFIGURACION DE LA LOTERIA DEL JEFE JNC ===\n");
-    printf("Jefe escriba el numero ganador de esta vuelta (Entre el 1 y 40): ");
-    scanf("%d", &numeroGanador);
-
-    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 
     printf("=== BIENVENIDO AL CASINO LOTEKA TETOKA - DE: JNC ===\n");
 
     while(opcion != 3)
     {
+        numeroGanador = numeroGanador + 7;
+    if (numeroGanador > 40)
+    {
+        numeroGanador = 1;
+    }
+
         printf("\n--- MENU PRINCIPAL ---\n");
 
         printf("\n--- Una Vez Que Entras Se Te Hara Dificil Salir ---\n");
@@ -108,7 +109,7 @@ int main()
           break;
 
           default:
-            printf("\Opcion invalida. Intente de nuevo.\n");
+            printf("Opcion invalida. Intente de nuevo.\n");
             break;
 }
 }
