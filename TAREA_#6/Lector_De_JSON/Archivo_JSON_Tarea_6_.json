@@ -1,0 +1,64 @@
+{
+  "alumnos": [
+    {
+      "nombre": "Jahel",
+      "apellido": "Novas",
+      "promedio": 8.5,
+      "materia": "Matematicas"
+    },
+    {
+      "nombre": "Jahel",
+      "apellido": "Novas",
+      "promedio": 9.2,
+      "materia": "Historia"
+    },
+    {
+      "nombre": "Jahel",
+      "apellido": "Novas",
+      "promedio": 7.8,
+      "materia": "Fisica"
+    },
+    {
+      "nombre": "Jahel",
+      "apellido": "Novas",
+      "promedio": 9.8,
+      "materia": "Quimica"
+    },
+    {
+      "nombre": "Jahel",
+      "apellido": "Novas",
+      "promedio": 6.5,
+      "materia": "Literatura"
+    },
+    {
+      "nombre": "Jahel",
+      "apellido": "Novas",
+      "promedio": 8.9,
+      "materia": "Biologia"
+    },
+    {
+      "nombre": "Jahel",
+      "apellido": "Novas",
+      "promedio": 7.2,
+      "materia": "Geografia"
+    },
+    {
+      "nombre": "Jahel",
+      "apellido": "Novas",
+      "promedio": 9.5,
+      "materia": "Ingles"
+    },
+    {
+      "nombre": "Jahel",
+      "apellido": "Novas",
+      "promedio": 8.0,
+      "materia": "Programacion"
+    },
+    {
+      "nombre": "Jahel",
+      "apellido": "Novas",
+      "promedio": 6.9,
+      "materia": "Arte"
+    }
+  ]
+}
