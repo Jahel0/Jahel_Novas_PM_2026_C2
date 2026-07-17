@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1782961065 source:c:\users\lehaj_savon\documents\itla tareas\programacion para mecatronicos\jahel_novas_pm_2026_c2\tarea_#6\lector_de_csv\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

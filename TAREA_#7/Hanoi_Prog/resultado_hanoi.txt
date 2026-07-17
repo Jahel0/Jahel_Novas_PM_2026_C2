@@ -1,0 +1,7 @@
+Paso 1: Trasladar disco 1 desde la torre A hasta la C
+Paso 2: Trasladar disco 2 desde la torre A hasta la B
+Paso 3: Trasladar disco 1 desde la torre C hasta la B
+Paso 4: Trasladar disco 3 desde la torre A hasta la C
+Paso 5: Trasladar disco 1 desde la torre B hasta la A
+Paso 6: Trasladar disco 2 desde la torre B hasta la C
+Paso 7: Trasladar disco 1 desde la torre A hasta la C

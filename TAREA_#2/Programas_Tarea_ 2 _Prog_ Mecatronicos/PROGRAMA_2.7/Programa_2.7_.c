@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+/* Ventas Descendentes
+El Programa, al recibir como dato tres valores que representan las ventas
+de los vendedores de una tienda de discos, escribe las ventas
+orden descendente.
+
+P, S y R: Variables de tipo real. */
+
+void main(void)
+{
+float P, S, R;
+printf("\nIngrese las Ventas de los tres vendedores: ");
+scanf("%f %f %f %f", &P, &S, &R);
+if (P > S)
+   if (P > R)
+      if (S > R)
+         printf("\n\n El orden es P, S y R: %8.2f %8.2f %8.2f", P, S, R);
+      else
+        printf("\n\n El orden es P, R y S: %8.2f %8.2f %8.2f", P, R, S);
+    else
+       printf("\n\n El orden es R, P y S; %8.2f %8.2f %8.2f", R, P, S);
+   else
+     if (S > R)
+         if (P > R)
+            printf("\n\n El orden es S, P y R: %8.2f %8.2f %8.2f", S, P, R);
+         else
+            printf("\n\n El orden es S, R, P: %8.2f %8.2f %8.2f", S, R, P);
+     else
+        printf("\n\n El orden es R, S y P: %8.2f %8.2f %8.2f", R, S, P);
+}
