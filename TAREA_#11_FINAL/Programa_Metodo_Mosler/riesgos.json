@@ -1,0 +1,20 @@
+{
+  "riesgos": [
+    {
+      "id": 1,
+      "nombre": "fuga de agua en red",
+      "descripcion": "una fuga",
+      "F": 5, "S": 4, "P": 3, "E": 4, "A": 3, "V": 4,
+      "GR": 2880,
+      "nivel": "MUY ALTO / CRITICO"
+    },
+    {
+      "id": 2,
+      "nombre": "fallo aire recepcion",
+      "descripcion": "no funciona",
+      "F": 2, "S": 2, "P": 2, "E": 1, "A": 3, "V": 2,
+      "GR": 48,
+      "nivel": "MUY BAJO"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1787253945 source:c:\users\lehaj_savon\documents\itla tareas\programacion para mecatronicos\jahel_novas_pm_2026_c2\tarea_#11_final\programa_metodo_mosler\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<ctype.h>
+	<windows.h>
+	<strings.h>
+
